@@ -3,8 +3,21 @@ public class SQLFactory{
 
         Alunos eu = new Alunos();
 
-        Database.abrirID(eu, 18);
-        System.out.println("Nome: " + eu.nome + ", Idade: " + eu.idade + ", Cidade: " + eu.cidade + ", UF" + eu.uf );
+
+    //     eu.id = 8;
+    //     eu.nome = "Pedrita";
+    //     eu.idade = 20;
+    //     eu.cidade = "Novo Progresso";
+    //     eu.uf = "PA";
+
+        
+    //    System.out.println("-------DELETE-------");
+    //    System.out.println(eu.deleteSQL());
+
+    //    Database.deletar(eu);
+
+     Database.abrirID(eu, 15);
+     System.out.println("Nome: " + eu.nome + ", Idade: " + eu.idade + ", Cidade: " + eu.cidade + ", UF: " + eu.uf );
         
     }
 
